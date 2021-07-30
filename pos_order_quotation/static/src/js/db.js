@@ -1,4 +1,4 @@
-odoo.define('pos_quotation.DB', function(require) {
+odoo.define('pos_order_quotation.DB', function(require) {
     "use strict";
     var db = require('point_of_sale.DB');
 

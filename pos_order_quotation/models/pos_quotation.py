@@ -40,12 +40,12 @@ class POSQuotation(models.Model):
 
     @api.model
     def get_quotation_number(self):
-        sequence = self.env.ref('pos_quotation.sequence_quote_sequence')
+        sequence = self.env.ref('pos_order_quotation.sequence_quote_sequence')
         return 'QUOTE ID ' + str(sequence.number_next_actual)
 
     @api.model
     def create_quotation(self, vals):
-        sequence = self.env.ref('pos_quotation.sequence_quote_sequence')
+        sequence = self.env.ref('pos_order_quotation.sequence_quote_sequence')
         quote_id = self.create(vals)
         quotation = self.search_read([('id', '=', quote_id.id)])
         return [quotation, sequence._next()]

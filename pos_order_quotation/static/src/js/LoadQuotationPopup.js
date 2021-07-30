@@ -1,4 +1,4 @@
-odoo.define("pos_quotation.LoadQuotationPopup", function(require) {
+odoo.define("pos_order_quotation.LoadQuotationPopup", function(require) {
     "use strict";
 
     const {

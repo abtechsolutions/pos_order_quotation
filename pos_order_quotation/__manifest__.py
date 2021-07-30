@@ -1,15 +1,18 @@
 
 {
     'name': 'Point of Sale Quotations',
-    'version': '1.0',
+    'version': '1.0.0.0',
     'category': 'Sales/Point of Sale',
     'sequence': 6,
+    'license': 'LGPL-3',
     'summary': 'Save & Load Quotations in Point Of Sale',
     'description': """
 
 This module allows the user to save and load the quotation in pos.
 
 """,
+    'author': "AB Tech",
+    'website': 'abtechsolution.in',
     'depends': ['point_of_sale'],
     'data': [
         'security/ir.model.access.csv',

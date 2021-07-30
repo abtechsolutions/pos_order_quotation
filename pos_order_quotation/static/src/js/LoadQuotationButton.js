@@ -1,4 +1,4 @@
-odoo.define("pos_quotation.LoadQuotationButton", function(require) {
+odoo.define("pos_order_quotation.LoadQuotationButton", function(require) {
     "use strict";
 
     const PosComponent = require('point_of_sale.PosComponent');
