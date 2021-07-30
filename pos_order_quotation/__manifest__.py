@@ -29,6 +29,6 @@ This module allows the user to save and load the quotation in pos.
         'static/src/xml/OrderReceipt.xml',
         'static/src/xml/AlertPopups.xml',
     ],
-    "images": ["static/description/banner.png"],
+    "images": ["static/description/banner.gif"],
     'installable': True,
 }
