@@ -36,6 +36,6 @@ pos_save_quotation,
         'static/src/xml/OrderReceipt.xml',
         'static/src/xml/AlertPopups.xml',
     ],
-    "images": ["static/description/banner.png"],
+    "images": ["static/description/banner.gif"],
     'installable': True,
 }
