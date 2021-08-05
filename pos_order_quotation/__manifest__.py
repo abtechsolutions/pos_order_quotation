@@ -1,11 +1,11 @@
 
 {
-    'name': 'pos quotation',
-    'version': '1.0.0.2',
+    'name': 'Pos Quotations',
+    'version': '1.0.0.3',
     'category': 'Sales/Point of Sale',
     'sequence': 6,
     'license': 'LGPL-3',
-    'summary': 'Save & Load Quotations in Point Of Sale',
+    'summary': 'Create Quotation, Save Quotation and Load Quotation Order in Point Of Sale (Pos). Pos order Pos Note for quotation order',
     'description': """
         pos quotation,
         pos_quotation,
