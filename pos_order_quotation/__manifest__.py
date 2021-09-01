@@ -1,7 +1,7 @@
 
 {
     'name': 'Pos Quotations',
-    'version': '1.0.0.3',
+    'version': '14.0.1.0.3',
     'category': 'Sales/Point of Sale',
     'sequence': 6,
     'license': 'LGPL-3',
